@@ -1,5 +1,5 @@
 {
-  "name": "@oat-sa/rollup-plugin-glob-external",
+  "name": "@oat-sa/rollup-plugin-wildcard-external",
   "version": "0.1.0",
   "description": "Rollup plugin to define externals based on globs",
   "main": "index.js",
@@ -9,11 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oat-sa/rollup-plugin-glob-external.git"
+    "url": "git+https://github.com/oat-sa/rollup-plugin-wildcard-external.git"
   },
   "keywords": [
     "rollup",
     "plugin",
+    "wildcard",
     "glob",
     "external"
   ],
@@ -22,11 +23,10 @@
   },
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/oat-sa/rollup-plugin-glob-external/issues"
+    "url": "https://github.com/oat-sa/rollup-plugin-wildcard-external/issues"
   },
-  "homepage": "https://github.com/oat-sa/rollup-plugin-glob-external#readme",
+  "homepage": "https://github.com/oat-sa/rollup-plugin-wildcard-external#readme",
   "dependencies": {
-    "glob": "^7.1.4",
     "minimatch": "^3.0.4"
   },
   "devDependencies": {
