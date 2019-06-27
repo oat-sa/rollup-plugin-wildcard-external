@@ -18,7 +18,7 @@
 
 const minimatch = require('minimatch');
 
-export default (externals = []) => ({
+module.exports = (externals = []) => ({
     name: 'external-alias', // this name will show up in warnings and errors
     /**
      * Rollup resolveId function

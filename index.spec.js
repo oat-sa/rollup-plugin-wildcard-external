@@ -1,5 +1,5 @@
-import assert from 'assert';
-import plugin from './index';
+const assert = require('assert');
+const plugin = require('./index');
 
 describe('Empty', () => {
     beforeEach(function() {
