@@ -1,18 +1,26 @@
 {
   "name": "@oat-sa/rollup-plugin-glob-external",
   "version": "0.1.0",
-  "description": "Rollup plugin to define externals based on a glob",
+  "description": "Rollup plugin to define externals based on globs",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r esm index.spec.js"
+    "test": "mocha -r esm index.spec.js",
+    "lint": "eslint index*.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oat-sa/rollup-plugin-glob-external.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "rollup",
+    "plugin",
+    "glob",
+    "external"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "GPL-2.0",
   "bugs": {
     "url": "https://github.com/oat-sa/rollup-plugin-glob-external/issues"
   },

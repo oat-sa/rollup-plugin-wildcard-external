@@ -20,6 +20,12 @@ const minimatch = require('minimatch');
 
 export default (externals = []) => ({
     name: 'external-alias', // this name will show up in warnings and errors
+    /**
+     * Rollup resolveId function
+     * @param {string} source imported module name that should check
+     * @param {string} importer importer module name
+     * @returns {string | false | null | object} module definition
+     */
     resolveId(source, importer) {
         if (importer && externals.find(pattern => minimatch(source, pattern))) {
             return {
