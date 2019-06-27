@@ -35,6 +35,10 @@ The plugin is tested with `mocha`. You can run tests with
 
 `npm run test`
 
+or with coverage
+
+`npm run test:cov`
+
 ### Code link
 
 `npm run lint`
