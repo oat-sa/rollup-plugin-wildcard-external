@@ -26,3 +26,15 @@ export default {
   ]
 };
 ```
+
+## For developers
+
+### Tests
+
+The plugin is tested with `mocha`. You can run tests with
+
+`npm run test`
+
+### Code link
+
+`npm run lint`
