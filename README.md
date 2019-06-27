@@ -39,6 +39,6 @@ or with coverage
 
 `npm run test:cov`
 
-### Code link
+### Code style check
 
 `npm run lint`
