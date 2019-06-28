@@ -2,7 +2,7 @@
 
 This plugin extends the behaviour of rollup externals to be able to define wildcard externals.
 
-Plugin uses `minimatch` under the hood, so any glob pattern supported.
+Plugin uses `minimatch` under the hood, so any glob pattern is supported.
 
 ## Installation
 
