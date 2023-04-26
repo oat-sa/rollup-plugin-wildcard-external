@@ -6,7 +6,10 @@
     "scripts": {
         "test": "mocha index.spec.js",
         "test:cov": "nyc -x *.spec.js mocha index.spec.js",
-        "lint": "eslint index*.js"
+        "coverage": "nyc report",
+        "coverage:clover": "nyc report --reporter=clover",
+        "lint": "eslint index*.js",
+        "lint:report": "eslint index*.js --output-file eslint_report.json --format json | true"
     },
     "repository": {
         "type": "git",
