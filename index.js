@@ -16,7 +16,7 @@
  * Copyright (c) 2019 (original work) Open Assessment Technologies SA ;
  */
 
-const minimatch = require('minimatch');
+const { minimatch } = require('minimatch');
 
 module.exports = (externals = []) => ({
     name: 'external-alias', // this name will show up in warnings and errors

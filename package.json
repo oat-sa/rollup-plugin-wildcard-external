@@ -28,7 +28,7 @@
     },
     "homepage": "https://github.com/oat-sa/rollup-plugin-wildcard-external#readme",
     "dependencies": {
-        "minimatch": "^3.0.4"
+        "minimatch": "^9.0.0"
     },
     "devDependencies": {
         "eslint": "^8.39.0",
