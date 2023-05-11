@@ -1,6 +1,6 @@
 {
     "name": "@oat-sa/rollup-plugin-wildcard-external",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Rollup plugin to define externals based on globs",
     "main": "index.js",
     "scripts": {
