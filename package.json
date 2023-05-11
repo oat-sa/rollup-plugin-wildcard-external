@@ -1,12 +1,15 @@
 {
     "name": "@oat-sa/rollup-plugin-wildcard-external",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Rollup plugin to define externals based on globs",
     "main": "index.js",
     "scripts": {
         "test": "mocha index.spec.js",
         "test:cov": "nyc -x *.spec.js mocha index.spec.js",
-        "lint": "eslint index*.js"
+        "coverage": "nyc report",
+        "coverage:clover": "nyc report --reporter=clover",
+        "lint": "eslint index*.js",
+        "lint:report": "eslint index*.js --output-file eslint_report.json --format json | true"
     },
     "repository": {
         "type": "git",
@@ -28,13 +31,13 @@
     },
     "homepage": "https://github.com/oat-sa/rollup-plugin-wildcard-external#readme",
     "dependencies": {
-        "minimatch": "^3.0.4"
+        "minimatch": "^9.0.0"
     },
     "devDependencies": {
-        "eslint": "^6.0.1",
-        "eslint-plugin-es": "^1.4.0",
-        "eslint-plugin-jsdoc": "^8.7.0",
-        "mocha": "^6.1.4",
-        "nyc": "^14.1.1"
+        "eslint": "^8.39.0",
+        "eslint-plugin-es": "^4.1.0",
+        "eslint-plugin-jsdoc": "^40.1.1",
+        "mocha": "^10.2.0",
+        "nyc": "^15.1.0"
     }
 }
