@@ -39,5 +39,9 @@
         "eslint-plugin-jsdoc": "^40.1.1",
         "mocha": "^10.2.0",
         "nyc": "^15.1.0"
+    },
+    "overrides": {
+        "@babel/traverse": "^7.28.5",
+        "istanbul-lib-instrument": "^6.0.3"
     }
 }
